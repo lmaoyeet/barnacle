@@ -5,7 +5,7 @@ const rightWall = new Surface(1120-20, 0, 20, 630, "white");
 var jumpheight = 14;
 let music, jump;
 function setup() {
-    music = loadSound("assets/audio.music.mp3");
+    music = loadSound("https://lmaoyeet.github.io/barnacle/assets/audio/music.mp3");
     createCanvas(16*70,9*70);
     loop();
 }
